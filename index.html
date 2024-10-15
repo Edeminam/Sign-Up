@@ -16,22 +16,28 @@
   <body>
     <div class="reg-main">
       <div class="hdr">
-        <img src="image/fav.png" alt="" />
-        <h2>Sign in to your account</h2>
+        <img src="image/fav.png" alt="tailwind" />
+
+        <header>Sign in to your account</header>
       </div>
 
-      <form action="#" class="details">
+      <form action="#" class="form">
         <div class="input-field">
           <label for="Email">Enter your email address</label>
           <input type="email" placeholder="Email" />
         </div>
 
         <div class="input-field">
-          <label for="password">Enter your password</label>
+          <div class="pass-check">
+            <label for="password">Enter your password</label>
+            <label id="forgot" for="password">Forgot password?</label>
+          </div>
           <input type="password" placeholder="Password" />
         </div>
         <button>Sign in</button>
       </form>
+
+      <p>Not a member? <a href="#" class="start">Start a 14 day trial</a></p>
     </div>
   </body>
 </html>
